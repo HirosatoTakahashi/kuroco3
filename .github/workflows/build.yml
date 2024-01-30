@@ -93,7 +93,7 @@ jobs:
       #- name: Zip artifact for upload
       #  run: cd out && zip ../out.zip . -r
       - name: Generate #追加
-        run: npm run generate　#追加
+        run: npm run generate #追加
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v2
         with:
